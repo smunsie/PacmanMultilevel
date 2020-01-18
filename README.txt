@@ -1,4 +1,3 @@
-Student Number: 15011406
 Web Programming Assessment 1
 
 Path chosen: 1a
