@@ -1,6 +1,5 @@
-Web Programming Assessment 1
+This is a Pacman/Frogger/Platformer web browser game
 
-Path chosen: 1a
 
 How to play:
 
