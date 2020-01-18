@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WP Assessment 1</title>
+	<style>
+	
+	</style>
+</head>
+<body style="padding: 0px; margin:0px;">
+
+<div id="game" style="padding: 0px; margin:0px;">
+	<!-- <div id="cover" style="width: 464px; height:512px; padding: 0; margin: 0; overflow: hidden; position: relative; border: 0; outline: 0;"> -->
+		<canvas id="easelCanvas" width="464" height="512" style="background-color: #000000;"></canvas>
+	<!-- </div> -->
+	<canvas id="box2dCanvas" width="600" height="512" style="background-color: #333333; position: absolute;"></canvas>
+	</div>
+	<p>Lives </p><p id="lives"></p>
+	<p>Time left: </p><p id="timeleft"></p> 
+	
+	<p>Score: </p><p id="score"></p> 
+
+	<p>Frogger Level Completed: </p><p id="topdown"></p> 
+
+	<p>Platform Level Completed: </p> <p id="platform"></p>
+
+
+
+<script src="libs/Box2d.min.js"></script>
+<script src="libs/jquery-1.12.3.min.js"></script>
+<script src="libs/easeljs-NEXT.combined.js"></script>
+<script src="libs/preloadjs-NEXT.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/box2dinit.js"></script>
+<script src="js/variableinit.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
